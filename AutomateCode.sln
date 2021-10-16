@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomateCode", "02-Apps\Aut
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomateCode_Models", "01-Infraestructura\AutomateCode_Models\AutomateCode_Models.csproj", "{2628C4E6-6DDB-473C-BFF2-3CFF720FC4D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomateCode_Interface", "01-Infraestructura\AutomateCode_Interface\AutomateCode_Interface.csproj", "{3B024BBA-9A0B-480A-9D49-CD4BCC92D181}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{2628C4E6-6DDB-473C-BFF2-3CFF720FC4D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2628C4E6-6DDB-473C-BFF2-3CFF720FC4D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2628C4E6-6DDB-473C-BFF2-3CFF720FC4D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B024BBA-9A0B-480A-9D49-CD4BCC92D181}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B024BBA-9A0B-480A-9D49-CD4BCC92D181}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B024BBA-9A0B-480A-9D49-CD4BCC92D181}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B024BBA-9A0B-480A-9D49-CD4BCC92D181}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +52,7 @@ Global
 		{CDC3B64D-D66E-4449-95BD-D001B26CA7CB} = {4802B464-BB2E-4A85-A0AE-384CB4A71EBF}
 		{F131EE5D-AF16-4CBC-9627-EA71FE2A414A} = {62299B64-493D-4507-B366-B31CA39BCB02}
 		{2628C4E6-6DDB-473C-BFF2-3CFF720FC4D5} = {4802B464-BB2E-4A85-A0AE-384CB4A71EBF}
+		{3B024BBA-9A0B-480A-9D49-CD4BCC92D181} = {4802B464-BB2E-4A85-A0AE-384CB4A71EBF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EE0385B8-EFC6-45D3-967B-508FA7E43B3F}
