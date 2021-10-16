@@ -1,5 +1,6 @@
 ﻿using System;
 using ConnBBDD;
+using System.Globalization;
 
 namespace AutomateCode_Interface
 {
@@ -117,6 +118,40 @@ namespace AutomateCode_Interface
             }
 
             disposed = true;
+        }
+        #endregion
+        //--------------------------------------------------------------------
+
+        //--------------------------------------------------------------------
+        #region Procedimientos y funciones varios (PROTECTED)
+        protected static string FormatNumericToString(double dNumber)
+        {
+            //Declaración
+            string _Result = dNumber.ToString().Trim();
+
+            NumberFormatInfo nfi = CultureInfo.CurrentCulture.NumberFormat;
+            string SeparadorDecimal = nfi.NumberDecimalSeparator;
+
+            //Código
+            if (_Result.Contains(SeparadorDecimal))
+            {
+                _Result = _Result.Replace(SeparadorDecimal, ".");
+            }
+
+            //Resultado
+            return _Result;
+        }
+
+        protected static string FormatDateTimeToString(DateTime dFecha)
+        {
+            //Declaración
+            string _Result = "#{1}/{0}/{2}#"; //Fecha en formato MM/DD/YYYy
+
+            //Código
+            _Result = string.Format(_Result, dFecha.Day.ToString(), dFecha.Month.ToString(), dFecha.Year.ToString());
+
+            //Resultado
+            return _Result.Trim();
         }
         #endregion
         //--------------------------------------------------------------------

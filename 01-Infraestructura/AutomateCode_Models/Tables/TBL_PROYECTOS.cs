@@ -37,13 +37,13 @@ namespace AutomateCode_Models.Tables
         public string PATH { get; set; }
 
         [Column(Order = 6)]
-        public Boolean MODELO_DATOS { get; set; }
+        public bool MODELO_DATOS { get; set; }
 
         [Column(Order = 7)]
-        public Boolean INTERFACES { get; set; }
+        public bool INTERFACES { get; set; }
 
         [Column(Order = 7)]
-        public Boolean CAPA_SERVICIOS { get; set; }
+        public bool CAPA_SERVICIOS { get; set; }
 
         [Required()]
         [Column(Order = 8)]

@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace FrikiGestModels.Tables
+namespace AutomateCode_Models.Tables
 {
     [Table("TBL_CONFIG")]
     [Serializable()]
