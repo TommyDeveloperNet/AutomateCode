@@ -129,6 +129,10 @@
       <Project>{cdc3b64d-d66e-4449-95bd-d001b26ca7cb}</Project>
       <Name>ConnBBDD</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\01-Infraestructura\Master_Forms\Master_Forms.csproj">
+      <Project>{66fe475e-e9bc-4af6-99a5-d5851572d619}</Project>
+      <Name>Master_Forms</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\01-Infraestructura\Utils\Utils.csproj">
       <Project>{bfa4713c-61cf-43d6-8aec-283d6fff254d}</Project>
       <Name>Utils</Name>
