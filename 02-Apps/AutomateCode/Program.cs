@@ -13,7 +13,7 @@ namespace AutomateCode
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Screens.Forms.Welcome());
+            Application.Run(new Screens.Forms.AutomateCode_MainForm());
         }
     }
 }

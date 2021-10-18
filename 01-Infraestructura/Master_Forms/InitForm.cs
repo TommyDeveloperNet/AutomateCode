@@ -4,13 +4,11 @@ using System.Globalization;
 
 namespace Master_Forms
 {
-    /// <summary>
-    /// Formulario primario del que heredan el resto de formularios
-    /// </summary>
-    public partial class FormIni : Form
+    public partial class InitForm : Form
     {
-        public FormIni()
+        public InitForm()
         {
+            InitializeComponent();
             InitializeCulture();
         }
 
